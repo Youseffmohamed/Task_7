@@ -1,0 +1,129 @@
+body {
+    background-image: url("JO_70.jpg");
+    background-size: cover;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 685px 50px;
+}
+
+header {
+    display: flex;
+    gap: 240px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: silver;
+}
+
+
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none
+}
+
+.signin {
+    width: 80px;
+    height: 25px;
+    background-color: silver;
+    border: 2px;
+    border-radius: 30px;
+}
+
+.signin:hover {
+    background: #c2d0dd;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    align-self: center;
+    text-align: center;
+    align-self: self-start;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0;
+    margin-top: 50px;
+    width: 100%;
+}
+
+p {
+    color: silver;
+    margin: 0;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.p2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text {
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+
+}
+
+.p3 {
+    font-size: 10px;
+    margin: 15px;
+}
+
+.getStart {
+    width: 80px;
+    height: 25px;
+    background-color: silver;
+    border: 2px;
+    border-radius: 30px;
+}
+
+.getStart:hover {
+    background: #bdd1e2;
+    color: #FFFFFF;
+}
+
+footer {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer ul {
+    gap: 200px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: silver;
+}
+
+ul :hover {
+    border-bottom: 2px solid silver;
+}
+
+ul :active {
+    color: black;
+}
+
+.UL :hover {
+    border-bottom: 1px solid silver;
+}
+
+.UL :active {
+    color: black;
+}
